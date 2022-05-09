@@ -5,6 +5,7 @@
 }
 
 /* ESTILOS NAV GENERAL*/
+
 .nav-link {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -18,10 +19,13 @@
 .footerGeneralInicio{
     display: flex;
     justify-content: space-between;
-    margin-right: 1rem;
     text-decoration: none;
+    background-color: #eccdcb;
 }
 .logoWhatsappInicio{
+    margin-right: 1rem;
+}
+.logoIgInicio{
     margin-right: 1rem;
 }
 .logoFacebookInicio {
