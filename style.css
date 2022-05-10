@@ -109,3 +109,30 @@
 .imagenesTestimonios{
     justify-content: space-between;
 }
+
+/*ESTILOS CONTACTO*/
+.mainContacto{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3 rem;
+    margin-bottom: 3rem;
+}
+.tituloMainContacto{
+        font-family: Verdana, Geneva, Tahoma, sans-serif ;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        margin: 2rem;
+        margin-top: 4rem;
+  
+}
+.formularioContacto{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.botonEnviar{
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+}
