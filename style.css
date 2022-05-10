@@ -61,7 +61,31 @@
 }
 
 /*ESTILOS POLITICAS DEVOLUCION*/
+.mainDevoluciones{
+    padding: 2rem;
+}
+.tituloDevolucion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: solid;
+    padding: 1rem;
+    text-decoration: underline;
+    
+}
+.parrafoDevolucion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 
-/*ESTILOS COMUNIDAD*/
-
-/*ESTILOS CONTACTO*/
+.tituloDevolucionNegrita{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: solid;
+    padding: 2rem; 
+ 
+}
