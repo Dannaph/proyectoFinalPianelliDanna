@@ -89,3 +89,20 @@
     padding: 2rem; 
  
 }
+
+/*ESTILOS DE COMUNIDAD*/
+.mainComunidad{
+    text-align: center;
+ 
+}
+.tituloTestimonio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 25px;
+    text-decoration: solid;
+    color: black;
+    text-align: center;
+    text-decoration: solid;
+    padding-bottom: 1rem;
+    padding-top: 3rem; 
+
+    }
