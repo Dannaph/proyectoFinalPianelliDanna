@@ -1,0 +1,61 @@
+/*ESTILOS DEL INDEX*/
+@media only screen and (min-width: 961) {
+  .bodyIndex {
+    margin: 0px;
+    padding: 0px;
+    /*cierre del footer*/
+  }
+  .bodyIndex .navBootstrap {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: solid;
+    text-decoration-color: black;
+    opacity: 100%;
+    background-color: #eccdcb;
+  }
+  .bodyIndex .footerGeneralInicio {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #eccdcb;
+    /*cierre del section general*/
+  }
+  .bodyIndex .footerGeneralInicio .sectionMenuFooter {
+    /*cierre del div*/
+  }
+  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter {
+    padding: 1rem;
+    /*cierre del nav*/
+  }
+  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter {
+    /*cierre del section Menu footer*/
+    /*cierre ol*/
+  }
+  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter {
+    display: flex;
+    justify-content: flex-start;
+    display: contents;
+    display: flex;
+  }
+  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter .ItemListaSectionFlex {
+    text-decoration-color: black;
+    text-decoration-style: solid;
+  }
+  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter {
+    margin-top: 1rem;
+  }
+  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoWhatsappInicio {
+    margin-right: 1rem;
+  }
+  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoFacebookInicio {
+    margin-right: 1rem;
+  }
+  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoIgInicio {
+    margin-right: 1rem;
+  }
+
+  /*cierre del body*/
+}
+/*cierre de media querys*/
+
+/*# sourceMappingURL=style.css.map */

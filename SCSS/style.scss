@@ -1,0 +1,68 @@
+/*ESTILOS DEL INDEX*/
+@media only screen and (min-width: 961) {
+
+    .bodyIndex {
+    margin: 0px;
+    padding: 0px;
+    
+    
+    .navBootstrap{
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: solid;
+        text-decoration-color: black;
+        opacity: 100%;
+        background-color: #eccdcb;
+    }
+   
+    .footerGeneralInicio {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        background-color: #eccdcb;    
+
+        .sectionMenuFooter{
+
+            .contenedorGeneralFooter{
+                padding: 1rem;
+                .navFooter{
+
+                    .olFooter{
+                       
+                        .sectionFlexFooter{
+                            display: flex;
+                            justify-content: flex-start;
+                            display: contents;
+                            display: flex;
+                           
+                            .ItemListaSectionFlex{
+                                text-decoration-color: black;
+                                text-decoration-style: solid
+                            }
+                        }
+
+        } /*cierre del section Menu footer*/               
+
+                        .sectionIconosFooter{
+                            margin-top: 1rem;
+                            .logoWhatsappInicio{
+                                margin-right: 1rem;
+                            }
+                            .logoFacebookInicio{
+                                margin-right: 1rem;
+                            }
+                            .logoIgInicio{
+                                margin-right: 1rem;
+                            }
+                    } /*cierre ol*/              
+                } /*cierre del nav*/
+            } /*cierre del div*/            
+        } /*cierre del section general*/
+    } /*cierre del footer*/   
+}/*cierre del body*/
+
+
+
+} /*cierre de media querys*/
+
+
