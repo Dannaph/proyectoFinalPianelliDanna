@@ -57,6 +57,17 @@
 }
 
 /*ESTILOS DE PRODUCTOS*/
+.h1Productos{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: solid;
+  
+
+}
 .divGeneralProductos {
     display: flex;
     justify-content: space-around;
