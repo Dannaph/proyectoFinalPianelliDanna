@@ -1,6 +1,8 @@
-/*ESTILOS DEL INDEX*/
+                        /*ESTILOS PARA DESKTOP*/
+                        
 @media only screen and (min-width: 961) {
 
+    /*ESTILOS DEL INDEX*/
     .bodyIndex {
     margin: 0px;
     padding: 0px;
@@ -61,8 +63,754 @@
     } /*cierre del footer*/   
 }/*cierre del body*/
 
+/*ESTILOS DE PRODUCTOS*/
+
+.bodyProductos{
+    margin: 0px;
+    padding: 0px;
+
+    .navBootstrap{
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: solid;
+        text-decoration-color: black;
+        opacity: 100%;
+        background-color: #eccdcb;
+    }
+
+    .h1Productos{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        text-align: center;
+        text-decoration: solid;
+    }
+    .divGeneralProductos{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .footerGeneralInicio {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        background-color: #eccdcb;    
+
+        .sectionMenuFooter{
+
+            .contenedorGeneralFooter{
+                padding: 1rem;
+                .navFooter{
+
+                    .olFooter{
+                       
+                        .sectionFlexFooter{
+                            display: flex;
+                            justify-content: flex-start;
+                            display: contents;
+                            display: flex;
+                           
+                            .ItemListaSectionFlex{
+                                text-decoration-color: black;
+                                text-decoration-style: solid
+                            }
+                        }
+
+        } /*cierre del section Menu footer*/               
+
+                        .sectionIconosFooter{
+                            margin-top: 1rem;
+                            .logoWhatsappInicio{
+                                margin-right: 1rem;
+                            }
+                            .logoFacebookInicio{
+                                margin-right: 1rem;
+                            }
+                            .logoIgInicio{
+                                margin-right: 1rem;
+                            }
+                    } /*cierre ol*/              
+                } /*cierre del nav*/
+            } /*cierre del div*/            
+        } /*cierre del section general*/
+    } /*cierre del footer*/
 
 
-} /*cierre de media querys*/
+} /*cierre del body*/
 
 
+/*ESTILOS DE POLITICAS DE DEVOLUCION*/
+.bodyDevoluciones{
+    margin: 0px;
+    padding: 0px;
+
+        .navBootstrap{
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: solid;
+            text-decoration-color: black;
+            opacity: 100%;
+            background-color: #eccdcb;
+        }
+    
+        .mainDevoluciones{
+            padding: 2rem;
+                .tituloDevolucion{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 25px;
+                    text-align: center;
+                    text-decoration: solid;
+                    padding: 1rem;
+                    text-decoration: underline;
+                }
+                .parrafoDevolucion{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 20px;
+                    text-align: justify;
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                }
+                .tituloDevolucionNegrita{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 22px;
+                    text-align: center;
+                    text-decoration: solid;
+                    padding: 2rem
+                }
+        }
+
+        .footerGeneralInicio {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            background-color: #eccdcb;    
+    
+            .sectionMenuFooter{
+    
+                .contenedorGeneralFooter{
+                    padding: 1rem;
+                    .navFooter{
+    
+                        .olFooter{
+                           
+                            .sectionFlexFooter{
+                                display: flex;
+                                justify-content: flex-start;
+                                display: contents;
+                                display: flex;
+                               
+                                .ItemListaSectionFlex{
+                                    text-decoration-color: black;
+                                    text-decoration-style: solid
+                                }
+                            }
+    
+            } /*cierre del section Menu footer*/               
+    
+                            .sectionIconosFooter{
+                                margin-top: 1rem;
+                                .logoWhatsappInicio{
+                                    margin-right: 1rem;
+                                }
+                                .logoFacebookInicio{
+                                    margin-right: 1rem;
+                                }
+                                .logoIgInicio{
+                                    margin-right: 1rem;
+                                }
+                        } /*cierre ol*/              
+                    } /*cierre del nav*/
+                } /*cierre del div*/            
+            } /*cierre del section general*/
+        } /*cierre del footer*/
+
+} /*cierre body*/
+
+
+/*ESTILOS COMUNIDAD*/
+
+.bodyComunidad{
+    margin: 0px;
+    padding: 0px;
+
+        .navBootstrap{
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: solid;
+            text-decoration-color: black;
+            opacity: 100%;
+            background-color: #eccdcb;
+        }
+
+        .mainComunidad{
+            text-align: center;
+            .tituloMainTestimonios{
+                font-family: Verdana, Geneva, Tahoma, sans-serif ;
+                font-size: 25px;
+                text-decoration: solid;
+                color: black;
+                text-align: center;
+                text-decoration: solid;
+                padding-bottom: 1rem;
+                padding-top: 3rem; 
+            }
+            .imagenesTestimonios{
+                justify-content: space-between;
+            }
+        }
+
+        .footerGeneralInicio {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            background-color: #eccdcb;    
+    
+            .sectionMenuFooter{
+    
+                .contenedorGeneralFooter{
+                    padding: 1rem;
+                    .navFooter{
+    
+                        .olFooter{
+                           
+                            .sectionFlexFooter{
+                                display: flex;
+                                justify-content: flex-start;
+                                display: contents;
+                                display: flex;
+                               
+                                .ItemListaSectionFlex{
+                                    text-decoration-color: black;
+                                    text-decoration-style: solid
+                                }
+                            }
+    
+            } /*cierre del section Menu footer*/               
+    
+                            .sectionIconosFooter{
+                                margin-top: 1rem;
+                                .logoWhatsappInicio{
+                                    margin-right: 1rem;
+                                }
+                                .logoFacebookInicio{
+                                    margin-right: 1rem;
+                                }
+                                .logoIgInicio{
+                                    margin-right: 1rem;
+                                }
+                        } /*cierre ol*/              
+                    } /*cierre del nav*/
+                } /*cierre del div*/            
+            } /*cierre del section general*/
+        } /*cierre del footer*/
+} /*cierre del body*/
+
+
+/*ESTILOS CONTACTO*/
+.bodyContacto{
+    margin: 0px;
+    padding: 0px;
+
+        .navBootstrap{
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: solid;
+            text-decoration-color: black;
+            opacity: 100%;
+            background-color: #eccdcb;
+        }
+
+        .mainContacto{
+            margin-left: 2rem;
+            margin-right: 2rem;
+            margin-top: 3 rem;
+            margin-bottom: 3rem;
+            
+            .tituloMainContacto{
+                font-family: Verdana, Geneva, Tahoma, sans-serif ;
+                font-size: 20px;
+                color: black;
+                text-align: center;
+                margin: 2rem;
+                margin-top: 4rem;
+            }
+            
+            .formularioContacto{
+                margin-left: 3rem;
+                margin-right: 3rem;
+                margin-top: 4rem;
+                margin-bottom: 1rem;
+            }
+            
+            .botonEnviar{
+                margin-left: 3rem;
+                margin-bottom: 5rem;
+            }
+        }
+
+        .footerGeneralInicio {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            background-color: #eccdcb;    
+    
+            .sectionMenuFooter{
+    
+                .contenedorGeneralFooter{
+                    padding: 1rem;
+                    .navFooter{
+    
+                        .olFooter{
+                           
+                            .sectionFlexFooter{
+                                display: flex;
+                                justify-content: flex-start;
+                                display: contents;
+                                display: flex;
+                               
+                                .ItemListaSectionFlex{
+                                    text-decoration-color: black;
+                                    text-decoration-style: solid
+                                }
+                            }
+    
+            } /*cierre del section Menu footer*/               
+    
+                            .sectionIconosFooter{
+                                margin-top: 1rem;
+                                .logoWhatsappInicio{
+                                    margin-right: 1rem;
+                                }
+                                .logoFacebookInicio{
+                                    margin-right: 1rem;
+                                }
+                                .logoIgInicio{
+                                    margin-right: 1rem;
+                                }
+                        } /*cierre ol*/              
+                    } /*cierre del nav*/
+                } /*cierre del div*/            
+            } /*cierre del section general*/
+        } /*cierre del footer*/
+}/*cierre del body*/
+
+} /*cierre de media querys desktop*/
+
+
+
+
+                        /*ESTILOS PARA TABLET*/
+@media only screen and (min-width:451px) and (max-width: 960px){
+
+    /*ESTILOS DEL INDEX*/
+    .bodyIndex {
+        margin: 0px;
+        padding: 0px;
+        
+        
+        .navBootstrap{
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: solid;
+            text-decoration-color: black;
+            opacity: 100%;
+            background-color: #eccdcb;
+        }
+       
+        .footerGeneralInicio {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            background-color: #eccdcb;    
+    
+            .sectionMenuFooter{
+    
+                .contenedorGeneralFooter{
+                    padding: 1rem;
+                    .navFooter{
+    
+                        .olFooter{
+                           
+                            .sectionFlexFooter{
+                                display: flex;
+                                justify-content: flex-start;
+                                display: contents;
+                                display: flex;
+                               
+                                .ItemListaSectionFlex{
+                                    text-decoration-color: black;
+                                    text-decoration-style: solid
+                                }
+                            }
+    
+            } /*cierre del section Menu footer*/               
+    
+                            .sectionIconosFooter{
+                                margin-top: 1rem;
+                                .logoWhatsappInicio{
+                                    margin-right: 1rem;
+                                }
+                                .logoFacebookInicio{
+                                    margin-right: 1rem;
+                                }
+                                .logoIgInicio{
+                                    margin-right: 1rem;
+                                }
+                        } /*cierre ol*/              
+                    } /*cierre del nav*/
+                } /*cierre del div*/            
+            } /*cierre del section general*/
+        } /*cierre del footer*/   
+    }/*cierre del body*/
+    
+    /*ESTILOS DE PRODUCTOS*/
+    
+    .bodyProductos{
+        margin: 0px;
+        padding: 0px;
+    
+        .navBootstrap{
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: solid;
+            text-decoration-color: black;
+            opacity: 100%;
+            background-color: #eccdcb;
+        }
+    
+        .h1Productos{
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px;
+            text-align: center;
+            text-decoration: solid;
+        }
+        .divGeneralProductos{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+    
+        .footerGeneralInicio {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            background-color: #eccdcb;    
+    
+            .sectionMenuFooter{
+    
+                .contenedorGeneralFooter{
+                    padding: 1rem;
+                    .navFooter{
+    
+                        .olFooter{
+                           
+                            .sectionFlexFooter{
+                                display: flex;
+                                justify-content: flex-start;
+                                display: contents;
+                                display: flex;
+                               
+                                .ItemListaSectionFlex{
+                                    text-decoration-color: black;
+                                    text-decoration-style: solid
+                                }
+                            }
+    
+            } /*cierre del section Menu footer*/               
+    
+                            .sectionIconosFooter{
+                                margin-top: 1rem;
+                                .logoWhatsappInicio{
+                                    margin-right: 1rem;
+                                }
+                                .logoFacebookInicio{
+                                    margin-right: 1rem;
+                                }
+                                .logoIgInicio{
+                                    margin-right: 1rem;
+                                }
+                        } /*cierre ol*/              
+                    } /*cierre del nav*/
+                } /*cierre del div*/            
+            } /*cierre del section general*/
+        } /*cierre del footer*/
+    
+    
+    } /*cierre del body*/
+    
+    
+    /*ESTILOS DE POLITICAS DE DEVOLUCION*/
+    .bodyDevoluciones{
+        margin: 0px;
+        padding: 0px;
+    
+            .navBootstrap{
+                text-decoration: none;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-decoration: solid;
+                text-decoration-color: black;
+                opacity: 100%;
+                background-color: #eccdcb;
+            }
+        
+            .mainDevoluciones{
+                padding: 2rem;
+                    .tituloDevolucion{
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-size: 25px;
+                        text-align: center;
+                        text-decoration: solid;
+                        padding: 1rem;
+                        text-decoration: underline;
+                    }
+                    .parrafoDevolucion{
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-size: 20px;
+                        text-align: justify;
+                        padding-left: 3rem;
+                        padding-right: 3rem;
+                    }
+                    .tituloDevolucionNegrita{
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-size: 22px;
+                        text-align: center;
+                        text-decoration: solid;
+                        padding: 2rem
+                    }
+            }
+    
+            .footerGeneralInicio {
+                display: flex;
+                justify-content: space-between;
+                text-decoration: none;
+                background-color: #eccdcb;    
+        
+                .sectionMenuFooter{
+        
+                    .contenedorGeneralFooter{
+                        padding: 1rem;
+                        .navFooter{
+        
+                            .olFooter{
+                               
+                                .sectionFlexFooter{
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    display: contents;
+                                    display: flex;
+                                   
+                                    .ItemListaSectionFlex{
+                                        text-decoration-color: black;
+                                        text-decoration-style: solid
+                                    }
+                                }
+        
+                } /*cierre del section Menu footer*/               
+        
+                                .sectionIconosFooter{
+                                    margin-top: 1rem;
+                                    .logoWhatsappInicio{
+                                        margin-right: 1rem;
+                                    }
+                                    .logoFacebookInicio{
+                                        margin-right: 1rem;
+                                    }
+                                    .logoIgInicio{
+                                        margin-right: 1rem;
+                                    }
+                            } /*cierre ol*/              
+                        } /*cierre del nav*/
+                    } /*cierre del div*/            
+                } /*cierre del section general*/
+            } /*cierre del footer*/
+    
+    } /*cierre body*/
+    
+    
+    /*ESTILOS COMUNIDAD*/
+    
+    .bodyComunidad{
+        margin: 0px;
+        padding: 0px;
+    
+            .navBootstrap{
+                text-decoration: none;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-decoration: solid;
+                text-decoration-color: black;
+                opacity: 100%;
+                background-color: #eccdcb;
+            }
+    
+            .mainComunidad{
+                text-align: center;
+                .tituloMainTestimonios{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+                    font-size: 25px;
+                    text-decoration: solid;
+                    color: black;
+                    text-align: center;
+                    text-decoration: solid;
+                    padding-bottom: 1rem;
+                    padding-top: 3rem; 
+                }
+                .imagenesTestimonios{
+                    justify-content: space-between;
+                }
+            }
+    
+            .footerGeneralInicio {
+                display: flex;
+                justify-content: space-between;
+                text-decoration: none;
+                background-color: #eccdcb;    
+        
+                .sectionMenuFooter{
+        
+                    .contenedorGeneralFooter{
+                        padding: 1rem;
+                        .navFooter{
+        
+                            .olFooter{
+                               
+                                .sectionFlexFooter{
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    display: contents;
+                                    display: flex;
+                                   
+                                    .ItemListaSectionFlex{
+                                        text-decoration-color: black;
+                                        text-decoration-style: solid
+                                    }
+                                }
+        
+                } /*cierre del section Menu footer*/               
+        
+                                .sectionIconosFooter{
+                                    margin-top: 1rem;
+                                    .logoWhatsappInicio{
+                                        margin-right: 1rem;
+                                    }
+                                    .logoFacebookInicio{
+                                        margin-right: 1rem;
+                                    }
+                                    .logoIgInicio{
+                                        margin-right: 1rem;
+                                    }
+                            } /*cierre ol*/              
+                        } /*cierre del nav*/
+                    } /*cierre del div*/            
+                } /*cierre del section general*/
+            } /*cierre del footer*/
+    } /*cierre del body*/
+    
+    
+    /*ESTILOS CONTACTO*/
+    .bodyContacto{
+        margin: 0px;
+        padding: 0px;
+    
+            .navBootstrap{
+                text-decoration: none;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-decoration: solid;
+                text-decoration-color: black;
+                opacity: 100%;
+                background-color: #eccdcb;
+            }
+    
+            .mainContacto{
+                margin-left: 2rem;
+                margin-right: 2rem;
+                margin-top: 3 rem;
+                margin-bottom: 3rem;
+                
+                .tituloMainContacto{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+                    font-size: 20px;
+                    color: black;
+                    text-align: center;
+                    margin: 2rem;
+                    margin-top: 4rem;
+                }
+                
+                .formularioContacto{
+                    margin-left: 3rem;
+                    margin-right: 3rem;
+                    margin-top: 4rem;
+                    margin-bottom: 1rem;
+                }
+                
+                .botonEnviar{
+                    margin-left: 3rem;
+                    margin-bottom: 5rem;
+                }
+            }
+    
+            .footerGeneralInicio {
+                display: flex;
+                justify-content: space-between;
+                text-decoration: none;
+                background-color: #eccdcb;    
+        
+                .sectionMenuFooter{
+        
+                    .contenedorGeneralFooter{
+                        padding: 1rem;
+                        .navFooter{
+        
+                            .olFooter{
+                               
+                                .sectionFlexFooter{
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    display: contents;
+                                    display: flex;
+                                   
+                                    .ItemListaSectionFlex{
+                                        text-decoration-color: black;
+                                        text-decoration-style: solid
+                                    }
+                                }
+        
+                } /*cierre del section Menu footer*/               
+        
+                                .sectionIconosFooter{
+                                    margin-top: 1rem;
+                                    .logoWhatsappInicio{
+                                        margin-right: 1rem;
+                                    }
+                                    .logoFacebookInicio{
+                                        margin-right: 1rem;
+                                    }
+                                    .logoIgInicio{
+                                        margin-right: 1rem;
+                                    }
+                            } /*cierre ol*/              
+                        } /*cierre del nav*/
+                    } /*cierre del div*/            
+                } /*cierre del section general*/
+            } /*cierre del footer*/
+    }/*cierre del body*/
+
+
+} /*cierre de media querys tablet*/
+
+
+
+
+                        /*ESTILOS PARA MOBILE*/
+@media only screen and (max-width: 450px){
+
+
+    
+} /*cierre de media querys mobile*/
