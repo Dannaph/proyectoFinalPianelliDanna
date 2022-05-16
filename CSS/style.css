@@ -1,11 +1,6 @@
 /*ESTILOS PARA DESKTOP*/
 @media only screen and (min-width: 961) {
   /*ESTILOS DEL INDEX*/
-  .bodyIndex {
-    margin: 0px;
-    padding: 0px;
-    /*cierre del footer*/
-  }
   .bodyIndex .navBootstrap {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,47 +10,34 @@
     background-color: #eccdcb;
   }
   .bodyIndex .footerGeneralInicio {
+    background-color: #eccdcb;
+    margin: 1rem;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
-    background-color: #eccdcb;
-    /*cierre del section general*/
   }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter {
-    /*cierre del div*/
+  .bodyIndex .footerGeneralInicio .navFooter {
+    display: flex;
+    margin: 1rem;
   }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter {
-    padding: 1rem;
-    /*cierre del nav*/
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter {
-    /*cierre del section Menu footer*/
-    /*cierre ol*/
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter {
+  .bodyIndex .footerGeneralInicio .navFooter .sectionMenuFooter {
     display: flex;
     justify-content: flex-start;
-    display: contents;
-    display: flex;
   }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter .ItemListaSectionFlex {
-    text-decoration-color: black;
-    text-decoration-style: solid;
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter {
+  .bodyIndex .footerGeneralInicio .navFooter .sectionIconosFooter {
     margin-top: 1rem;
+    justify-content: flex-end;
   }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoWhatsappInicio {
+  .bodyIndex .footerGeneralInicio .navFooter .sectionIconosFooter .logoWhatsappInicio {
     margin-right: 1rem;
   }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoFacebookInicio {
+  .bodyIndex .footerGeneralInicio .navFooter .sectionIconosFooter .logoFacebookInicio {
     margin-right: 1rem;
   }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoIgInicio {
+  .bodyIndex .footerGeneralInicio .navFooter .sectionIconosFooter .logoIgInicio {
     margin-right: 1rem;
   }
 
-  /*cierre del body*/
   /*ESTILOS DE PRODUCTOS*/
   .bodyProductos {
     margin: 0px;
@@ -362,371 +344,5 @@
   /*cierre del body*/
 }
 /*cierre de media querys desktop*/
-/*ESTILOS PARA TABLET*/
-@media only screen and (min-width: 451px) and (max-width: 960px) {
-  /*ESTILOS DEL INDEX*/
-  .bodyIndex {
-    margin: 0px;
-    padding: 0px;
-    /*cierre del footer*/
-  }
-  .bodyIndex .navBootstrap {
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: solid;
-    text-decoration-color: black;
-    opacity: 100%;
-    background-color: #eccdcb;
-  }
-  .bodyIndex .footerGeneralInicio {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    background-color: #eccdcb;
-    /*cierre del section general*/
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter {
-    /*cierre del div*/
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter {
-    padding: 1rem;
-    /*cierre del nav*/
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter {
-    /*cierre del section Menu footer*/
-    /*cierre ol*/
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter {
-    display: flex;
-    justify-content: flex-start;
-    display: contents;
-    display: flex;
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter .ItemListaSectionFlex {
-    text-decoration-color: black;
-    text-decoration-style: solid;
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter {
-    margin-top: 1rem;
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoWhatsappInicio {
-    margin-right: 1rem;
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoFacebookInicio {
-    margin-right: 1rem;
-  }
-  .bodyIndex .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoIgInicio {
-    margin-right: 1rem;
-  }
-
-  /*cierre del body*/
-  /*ESTILOS DE PRODUCTOS*/
-  .bodyProductos {
-    margin: 0px;
-    padding: 0px;
-    /*cierre del footer*/
-  }
-  .bodyProductos .navBootstrap {
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: solid;
-    text-decoration-color: black;
-    opacity: 100%;
-    background-color: #eccdcb;
-  }
-  .bodyProductos .h1Productos {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    text-align: center;
-    text-decoration: solid;
-  }
-  .bodyProductos .divGeneralProductos {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
-  .bodyProductos .footerGeneralInicio {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    background-color: #eccdcb;
-    /*cierre del section general*/
-  }
-  .bodyProductos .footerGeneralInicio .sectionMenuFooter {
-    /*cierre del div*/
-  }
-  .bodyProductos .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter {
-    padding: 1rem;
-    /*cierre del nav*/
-  }
-  .bodyProductos .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter {
-    /*cierre del section Menu footer*/
-    /*cierre ol*/
-  }
-  .bodyProductos .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter {
-    display: flex;
-    justify-content: flex-start;
-    display: contents;
-    display: flex;
-  }
-  .bodyProductos .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter .ItemListaSectionFlex {
-    text-decoration-color: black;
-    text-decoration-style: solid;
-  }
-  .bodyProductos .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter {
-    margin-top: 1rem;
-  }
-  .bodyProductos .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoWhatsappInicio {
-    margin-right: 1rem;
-  }
-  .bodyProductos .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoFacebookInicio {
-    margin-right: 1rem;
-  }
-  .bodyProductos .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoIgInicio {
-    margin-right: 1rem;
-  }
-
-  /*cierre del body*/
-  /*ESTILOS DE POLITICAS DE DEVOLUCION*/
-  .bodyDevoluciones {
-    margin: 0px;
-    padding: 0px;
-    /*cierre del footer*/
-  }
-  .bodyDevoluciones .navBootstrap {
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: solid;
-    text-decoration-color: black;
-    opacity: 100%;
-    background-color: #eccdcb;
-  }
-  .bodyDevoluciones .mainDevoluciones {
-    padding: 2rem;
-  }
-  .bodyDevoluciones .mainDevoluciones .tituloDevolucion {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    text-align: center;
-    text-decoration: solid;
-    padding: 1rem;
-    text-decoration: underline;
-  }
-  .bodyDevoluciones .mainDevoluciones .parrafoDevolucion {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: justify;
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-  .bodyDevoluciones .mainDevoluciones .tituloDevolucionNegrita {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 22px;
-    text-align: center;
-    text-decoration: solid;
-    padding: 2rem;
-  }
-  .bodyDevoluciones .footerGeneralInicio {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    background-color: #eccdcb;
-    /*cierre del section general*/
-  }
-  .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter {
-    /*cierre del div*/
-  }
-  .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter {
-    padding: 1rem;
-    /*cierre del nav*/
-  }
-  .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter {
-    /*cierre del section Menu footer*/
-    /*cierre ol*/
-  }
-  .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter {
-    display: flex;
-    justify-content: flex-start;
-    display: contents;
-    display: flex;
-  }
-  .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter .ItemListaSectionFlex {
-    text-decoration-color: black;
-    text-decoration-style: solid;
-  }
-  .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter {
-    margin-top: 1rem;
-  }
-  .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoWhatsappInicio {
-    margin-right: 1rem;
-  }
-  .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoFacebookInicio {
-    margin-right: 1rem;
-  }
-  .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoIgInicio {
-    margin-right: 1rem;
-  }
-
-  /*cierre body*/
-  /*ESTILOS COMUNIDAD*/
-  .bodyComunidad {
-    margin: 0px;
-    padding: 0px;
-    /*cierre del footer*/
-  }
-  .bodyComunidad .navBootstrap {
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: solid;
-    text-decoration-color: black;
-    opacity: 100%;
-    background-color: #eccdcb;
-  }
-  .bodyComunidad .mainComunidad {
-    text-align: center;
-  }
-  .bodyComunidad .mainComunidad .tituloMainTestimonios {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    text-decoration: solid;
-    color: black;
-    text-align: center;
-    text-decoration: solid;
-    padding-bottom: 1rem;
-    padding-top: 3rem;
-  }
-  .bodyComunidad .mainComunidad .imagenesTestimonios {
-    justify-content: space-between;
-  }
-  .bodyComunidad .footerGeneralInicio {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    background-color: #eccdcb;
-    /*cierre del section general*/
-  }
-  .bodyComunidad .footerGeneralInicio .sectionMenuFooter {
-    /*cierre del div*/
-  }
-  .bodyComunidad .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter {
-    padding: 1rem;
-    /*cierre del nav*/
-  }
-  .bodyComunidad .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter {
-    /*cierre del section Menu footer*/
-    /*cierre ol*/
-  }
-  .bodyComunidad .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter {
-    display: flex;
-    justify-content: flex-start;
-    display: contents;
-    display: flex;
-  }
-  .bodyComunidad .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter .ItemListaSectionFlex {
-    text-decoration-color: black;
-    text-decoration-style: solid;
-  }
-  .bodyComunidad .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter {
-    margin-top: 1rem;
-  }
-  .bodyComunidad .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoWhatsappInicio {
-    margin-right: 1rem;
-  }
-  .bodyComunidad .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoFacebookInicio {
-    margin-right: 1rem;
-  }
-  .bodyComunidad .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoIgInicio {
-    margin-right: 1rem;
-  }
-
-  /*cierre del body*/
-  /*ESTILOS CONTACTO*/
-  .bodyContacto {
-    margin: 0px;
-    padding: 0px;
-    /*cierre del footer*/
-  }
-  .bodyContacto .navBootstrap {
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: solid;
-    text-decoration-color: black;
-    opacity: 100%;
-    background-color: #eccdcb;
-  }
-  .bodyContacto .mainContacto {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 3 rem;
-    margin-bottom: 3rem;
-  }
-  .bodyContacto .mainContacto .tituloMainContacto {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: black;
-    text-align: center;
-    margin: 2rem;
-    margin-top: 4rem;
-  }
-  .bodyContacto .mainContacto .formularioContacto {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-  }
-  .bodyContacto .mainContacto .botonEnviar {
-    margin-left: 3rem;
-    margin-bottom: 5rem;
-  }
-  .bodyContacto .footerGeneralInicio {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    background-color: #eccdcb;
-    /*cierre del section general*/
-  }
-  .bodyContacto .footerGeneralInicio .sectionMenuFooter {
-    /*cierre del div*/
-  }
-  .bodyContacto .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter {
-    padding: 1rem;
-    /*cierre del nav*/
-  }
-  .bodyContacto .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter {
-    /*cierre del section Menu footer*/
-    /*cierre ol*/
-  }
-  .bodyContacto .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter {
-    display: flex;
-    justify-content: flex-start;
-    display: contents;
-    display: flex;
-  }
-  .bodyContacto .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter .ItemListaSectionFlex {
-    text-decoration-color: black;
-    text-decoration-style: solid;
-  }
-  .bodyContacto .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter {
-    margin-top: 1rem;
-  }
-  .bodyContacto .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoWhatsappInicio {
-    margin-right: 1rem;
-  }
-  .bodyContacto .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoFacebookInicio {
-    margin-right: 1rem;
-  }
-  .bodyContacto .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .sectionIconosFooter .logoIgInicio {
-    margin-right: 1rem;
-  }
-
-  /*cierre del body*/
-}
-/*cierre de media querys tablet*/
-/*ESTILOS PARA MOBILE*/
-/*cierre de media querys mobile*/
 
 /*# sourceMappingURL=style.css.map */
