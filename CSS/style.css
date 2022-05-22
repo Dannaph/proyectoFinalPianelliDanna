@@ -72,19 +72,14 @@
     justify-content: space-between;
     text-decoration: none;
     background-color: #eccdcb;
-    /*cierre del section general*/
+   
   }
-  .bodyProductos .footerGeneralInicio .sectionMenuFooter {
-    /*cierre del div*/
-  }
+ 
   .bodyProductos .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter {
     padding: 1rem;
-    /*cierre del nav*/
+  
   }
-  .bodyProductos .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter {
-    /*cierre del section Menu footer*/
-    /*cierre ol*/
-  }
+
   .bodyProductos .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter {
     display: flex;
     justify-content: flex-start;
@@ -155,17 +150,12 @@
     background-color: #eccdcb;
     /*cierre del section general*/
   }
-  .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter {
-    /*cierre del div*/
-  }
+
   .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter {
     padding: 1rem;
     /*cierre del nav*/
   }
-  .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter {
-    /*cierre del section Menu footer*/
-    /*cierre ol*/
-  }
+
   .bodyDevoluciones .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter {
     display: flex;
     justify-content: flex-start;
@@ -227,17 +217,12 @@
     background-color: #eccdcb;
     /*cierre del section general*/
   }
-  .bodyComunidad .footerGeneralInicio .sectionMenuFooter {
-    /*cierre del div*/
-  }
+
   .bodyComunidad .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter {
     padding: 1rem;
     /*cierre del nav*/
   }
-  .bodyComunidad .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter {
-    /*cierre del section Menu footer*/
-    /*cierre ol*/
-  }
+
   .bodyComunidad .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter {
     display: flex;
     justify-content: flex-start;
@@ -307,17 +292,11 @@
     background-color: #eccdcb;
     /*cierre del section general*/
   }
-  .bodyContacto .footerGeneralInicio .sectionMenuFooter {
-    /*cierre del div*/
-  }
   .bodyContacto .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter {
     padding: 1rem;
     /*cierre del nav*/
   }
-  .bodyContacto .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter {
-    /*cierre del section Menu footer*/
-    /*cierre ol*/
-  }
+
   .bodyContacto .footerGeneralInicio .sectionMenuFooter .contenedorGeneralFooter .navFooter .olFooter .sectionFlexFooter {
     display: flex;
     justify-content: flex-start;
