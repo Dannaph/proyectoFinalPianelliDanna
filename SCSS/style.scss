@@ -12,7 +12,7 @@
         margin: 0px;
         padding: 0px;
     }
- }
+
 
     .footerGeneralInicio {
         background-color: #eccdcb;    
@@ -20,6 +20,11 @@
         justify-content: flex-end; 
         background-color: #eccdcb ;
         padding: 1rem;
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        bottom: 0;
+
                  .logoWhatsappInicio{
                     margin-right: 1rem;
                     width: 25px
@@ -34,7 +39,7 @@
                 }
      }      
 
- 
+}  
              
 
 
@@ -55,7 +60,7 @@
         padding: 0px;
     }
     
-    .h1Productos {
+    .h1Productos  { 
         justify-content: center;
         margin-top: 1rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -75,6 +80,11 @@
         justify-content: flex-end; 
         background-color: #eccdcb ;
         padding: 1rem;
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        bottom: 0;
+
                  .logoWhatsappInicio{
                     margin-right: 1rem;
                     width: 25px
@@ -110,13 +120,12 @@
             justify-content: center;
 
             .tituloDevolucion{
-                    font-family: Verdana, Geneva, Tahoma, sans-serif;
-                    font-size: 25px;
-                    text-align: center;
-                    text-decoration: solid;
-                    padding: 1rem;
-                    padding-top: 1rem; 
-                    text-align: center;
+                justify-content: center;
+                margin-top: 1rem;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 25px;
+                text-align: center;
+                text-decoration: solid;
              }
                 .parrafoDevolucion{
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -128,14 +137,12 @@
                     margin: 2rem
                 }
                 .tituloDevolucionNegrita{
+                    justify-content: center;
+                    margin-top: 1rem;
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
-                    font-size: 22px;
+                    font-size: 25px;
                     text-align: center;
                     text-decoration: solid;
-                    padding: 1rem
-                    padding-bottom 1rem;
-                    margin: 2rem;
-                    font-size: 24px;
                 }
          }
 
@@ -145,6 +152,11 @@
             justify-content: flex-end; 
             background-color: #eccdcb ;
             padding: 1rem;
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            bottom: 0;
+
                      .logoWhatsappInicio{
                         margin-right: 1rem;
                         width: 25px
@@ -181,14 +193,12 @@
             text-align: center;
             margin-top: 2rem;
             .tituloMainTestimonios, .animate__animated {
-                font-family: Verdana, Geneva, Tahoma, sans-serif ;
+                justify-content: center;
+                margin-top: 1rem;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: 25px;
-                text-decoration: solid;
-                color: black;
                 text-align: center;
-                text-decoration: solid;
-                margin: 2rem; 
-                margin-top: 4rem;
+                text-decoration: solid; 
             }
             .imagenesTestimonios{
                 justify-content: space-between;
@@ -207,6 +217,12 @@
             justify-content: flex-end; 
             background-color: #eccdcb ;
             padding: 1rem;
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            bottom: 0;
+
+
                      .logoWhatsappInicio{
                         margin-right: 1rem;
                         width: 25px
@@ -240,12 +256,12 @@ padding: 0px;
         .mainContacto{
 
             .tituloMainContacto{
-                text-align: center;
-                font-family: Verdana, Geneva, Tahoma, sans-serif ;
+                justify-content: center;
+                margin-top: 2rem;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: 25px;
-                color: black;
                 text-align: center;
-                margin: 2rem;
+                text-decoration: solid;
             }
             
             .formularioContacto{
@@ -267,6 +283,11 @@ padding: 0px;
             justify-content: flex-end; 
             background-color: #eccdcb ;
             padding: 1rem;
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            bottom: 0;
+
                      .logoWhatsappInicio{
                         margin-right: 1rem;
                         width: 25px

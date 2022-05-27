@@ -12,23 +12,26 @@
   margin: 0px;
   padding: 0px;
 }
-
-.footerGeneralInicio {
+.bodyIndex .footerGeneralInicio {
   background-color: #eccdcb;
   display: flex;
   justify-content: flex-end;
   background-color: #eccdcb;
   padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
 }
-.footerGeneralInicio .logoWhatsappInicio {
+.bodyIndex .footerGeneralInicio .logoWhatsappInicio {
   margin-right: 1rem;
   width: 25px;
 }
-.footerGeneralInicio .logoFacebookInicio {
+.bodyIndex .footerGeneralInicio .logoFacebookInicio {
   margin-right: 1rem;
   width: 25px;
 }
-.footerGeneralInicio .logoIgInicio {
+.bodyIndex .footerGeneralInicio .logoIgInicio {
   margin-right: 1rem;
   width: 25px;
 }
@@ -67,6 +70,10 @@
   justify-content: flex-end;
   background-color: #eccdcb;
   padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
 }
 .bodyProductos .footerGeneralInicio .logoWhatsappInicio {
   margin-right: 1rem;
@@ -99,13 +106,12 @@
   justify-content: center;
 }
 .bodyDevoluciones .mainDevoluciones .tituloDevolucion {
+  justify-content: center;
+  margin-top: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 25px;
   text-align: center;
   text-decoration: solid;
-  padding: 1rem;
-  padding-top: 1rem;
-  text-align: center;
 }
 .bodyDevoluciones .mainDevoluciones .parrafoDevolucion {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -117,13 +123,12 @@
   margin: 2rem;
 }
 .bodyDevoluciones .mainDevoluciones .tituloDevolucionNegrita {
+  justify-content: center;
+  margin-top: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 22px;
+  font-size: 25px;
   text-align: center;
   text-decoration: solid;
-  padding: 1rem padding-bottom 1rem;
-  margin: 2rem;
-  font-size: 24px;
 }
 .bodyDevoluciones .footerGeneralInicio {
   background-color: #eccdcb;
@@ -131,6 +136,10 @@
   justify-content: flex-end;
   background-color: #eccdcb;
   padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
 }
 .bodyDevoluciones .footerGeneralInicio .logoWhatsappInicio {
   margin-right: 1rem;
@@ -163,14 +172,12 @@
   margin-top: 2rem;
 }
 .bodyComunidad .mainComunidad .tituloMainTestimonios, .bodyComunidad .mainComunidad .animate__animated {
+  justify-content: center;
+  margin-top: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 25px;
-  text-decoration: solid;
-  color: black;
   text-align: center;
   text-decoration: solid;
-  margin: 2rem;
-  margin-top: 4rem;
 }
 .bodyComunidad .mainComunidad .imagenesTestimonios {
   justify-content: space-between;
@@ -192,6 +199,10 @@
   justify-content: flex-end;
   background-color: #eccdcb;
   padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
 }
 .bodyComunidad .footerGeneralInicio .logoWhatsappInicio {
   margin-right: 1rem;
@@ -220,12 +231,12 @@
   background-color: #eccdcb;
 }
 .bodyContacto .mainContacto .tituloMainContacto {
-  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 25px;
-  color: black;
   text-align: center;
-  margin: 2rem;
+  text-decoration: solid;
 }
 .bodyContacto .mainContacto .formularioContacto {
   margin-left: 3rem;
@@ -243,6 +254,10 @@
   justify-content: flex-end;
   background-color: #eccdcb;
   padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
 }
 .bodyContacto .footerGeneralInicio .logoWhatsappInicio {
   margin-right: 1rem;
